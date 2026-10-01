@@ -1,0 +1,16 @@
+{
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "db:seed": "prisma db seed"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15"
+  }
+}
