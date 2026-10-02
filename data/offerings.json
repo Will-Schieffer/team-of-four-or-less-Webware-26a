@@ -1,0 +1,59 @@
+[
+  { "zip": "90101", "provider": "Wayne Enterprises", "category": "ELECTRIC" },
+  { "zip": "90101", "provider": "Wayne Enterprises", "category": "INTERNET" },
+  { "zip": "90101", "provider": "Gotham Gas Works", "category": "GAS" },
+  { "zip": "90101", "provider": "Gotham Water Authority", "category": "WATER" },
+  { "zip": "90101", "provider": "LexCorp Fiber", "category": "INTERNET" },
+  { "zip": "90101", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90101", "provider": "Arkham Sanitation", "category": "TRASH" },
+
+  { "zip": "90102", "provider": "Wayne Enterprises", "category": "ELECTRIC" },
+  { "zip": "90102", "provider": "Gotham Gas Works", "category": "GAS" },
+  { "zip": "90102", "provider": "Gotham Water Authority", "category": "WATER" },
+  { "zip": "90102", "provider": "LexCorp Fiber", "category": "INTERNET" },
+  { "zip": "90102", "provider": "Arkham Sanitation", "category": "TRASH" },
+
+  { "zip": "90201", "provider": "Gilead Municipal Electric", "category": "ELECTRIC" },
+  { "zip": "90201", "provider": "Gilead Waterworks", "category": "WATER" },
+  { "zip": "90201", "provider": "Eyes of Gilead Telecom", "category": "INTERNET" },
+  { "zip": "90201", "provider": "Aunt Lydia Waste Services", "category": "TRASH" },
+
+  { "zip": "90202", "provider": "Gilead Municipal Electric", "category": "ELECTRIC" },
+  { "zip": "90202", "provider": "Gilead Waterworks", "category": "WATER" },
+  { "zip": "90202", "provider": "Eyes of Gilead Telecom", "category": "INTERNET" },
+  { "zip": "90202", "provider": "Aunt Lydia Waste Services", "category": "TRASH" },
+
+  { "zip": "90301", "provider": "Arasaka Power Grid", "category": "ELECTRIC" },
+  { "zip": "90301", "provider": "Militech Gas", "category": "GAS" },
+  { "zip": "90301", "provider": "Night City Water Works", "category": "WATER" },
+  { "zip": "90301", "provider": "Kang Tao Broadband", "category": "INTERNET" },
+  { "zip": "90301", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90301", "provider": "Trauma Team Sanitation", "category": "TRASH" },
+
+  { "zip": "90302", "provider": "Arasaka Power Grid", "category": "ELECTRIC" },
+  { "zip": "90302", "provider": "Militech Gas", "category": "GAS" },
+  { "zip": "90302", "provider": "Night City Water Works", "category": "WATER" },
+  { "zip": "90302", "provider": "Kang Tao Broadband", "category": "INTERNET" },
+  { "zip": "90302", "provider": "Trauma Team Sanitation", "category": "TRASH" },
+
+  { "zip": "90401", "provider": "Flux Electric", "category": "ELECTRIC" },
+  { "zip": "90401", "provider": "Doc Brown Gas Co.", "category": "GAS" },
+  { "zip": "90401", "provider": "Clock Tower Water", "category": "WATER" },
+  { "zip": "90401", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90401", "provider": "Biff's Disposal", "category": "TRASH" },
+
+  { "zip": "90402", "provider": "Flux Electric", "category": "ELECTRIC" },
+  { "zip": "90402", "provider": "Clock Tower Water", "category": "WATER" },
+  { "zip": "90402", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90402", "provider": "Biff's Disposal", "category": "TRASH" },
+
+  { "zip": "90501", "provider": "Hawkins Power & Light", "category": "ELECTRIC" },
+  { "zip": "90501", "provider": "Hawkins Municipal Water", "category": "WATER" },
+  { "zip": "90501", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90501", "provider": "Hawkins Lab Waste Disposal", "category": "TRASH" },
+
+  { "zip": "90502", "provider": "Hawkins Power & Light", "category": "ELECTRIC" },
+  { "zip": "90502", "provider": "Hawkins Municipal Water", "category": "WATER" },
+  { "zip": "90502", "provider": "Skynet Fiber", "category": "INTERNET" },
+  { "zip": "90502", "provider": "Hawkins Lab Waste Disposal", "category": "TRASH" }
+]

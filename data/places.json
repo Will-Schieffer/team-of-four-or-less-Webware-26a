@@ -1,0 +1,12 @@
+[
+  { "zip": "90101", "city": "Gotham", "state": "NY", "lat": 40.7128, "lng": -74.006 },
+  { "zip": "90102", "city": "Gotham", "state": "NY", "lat": 40.7306, "lng": -73.9866 },
+  { "zip": "90201", "city": "Gilead", "state": "MA", "lat": 42.3736, "lng": -71.1097 },
+  { "zip": "90202", "city": "Gilead", "state": "MA", "lat": 42.3601, "lng": -71.0942 },
+  { "zip": "90301", "city": "Night City", "state": "CA", "lat": 36.6002, "lng": -121.8947 },
+  { "zip": "90302", "city": "Night City", "state": "CA", "lat": 36.6177, "lng": -121.9166 },
+  { "zip": "90401", "city": "Hill Valley", "state": "CA", "lat": 34.0522, "lng": -118.2437 },
+  { "zip": "90402", "city": "Hill Valley", "state": "CA", "lat": 34.0407, "lng": -118.2468 },
+  { "zip": "90501", "city": "Hawkins", "state": "IN", "lat": 39.7684, "lng": -86.1581 },
+  { "zip": "90502", "city": "Hawkins", "state": "IN", "lat": 39.7910, "lng": -86.1480 }
+]
