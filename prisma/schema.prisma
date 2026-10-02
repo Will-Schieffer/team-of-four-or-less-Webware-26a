@@ -45,6 +45,7 @@ model Offering {
   zip        String          @db.Char(5)
   providerId Int
   category   UtilityCategory
+  price      Float?
   place      Place           @relation(fields: [zip], references: [zip], onDelete: Cascade)
   provider   Provider        @relation(fields: [providerId], references: [id], onDelete: Cascade)
 
