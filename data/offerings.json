@@ -1,59 +1,6052 @@
 [
-  { "zip": "90101", "provider": "Wayne Enterprises", "category": "ELECTRIC" },
-  { "zip": "90101", "provider": "Wayne Enterprises", "category": "INTERNET" },
-  { "zip": "90101", "provider": "Gotham Gas Works", "category": "GAS" },
-  { "zip": "90101", "provider": "Gotham Water Authority", "category": "WATER" },
-  { "zip": "90101", "provider": "LexCorp Fiber", "category": "INTERNET" },
-  { "zip": "90101", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90101", "provider": "Arkham Sanitation", "category": "TRASH" },
-
-  { "zip": "90102", "provider": "Wayne Enterprises", "category": "ELECTRIC" },
-  { "zip": "90102", "provider": "Gotham Gas Works", "category": "GAS" },
-  { "zip": "90102", "provider": "Gotham Water Authority", "category": "WATER" },
-  { "zip": "90102", "provider": "LexCorp Fiber", "category": "INTERNET" },
-  { "zip": "90102", "provider": "Arkham Sanitation", "category": "TRASH" },
-
-  { "zip": "90201", "provider": "Gilead Municipal Electric", "category": "ELECTRIC" },
-  { "zip": "90201", "provider": "Gilead Waterworks", "category": "WATER" },
-  { "zip": "90201", "provider": "Eyes of Gilead Telecom", "category": "INTERNET" },
-  { "zip": "90201", "provider": "Aunt Lydia Waste Services", "category": "TRASH" },
-
-  { "zip": "90202", "provider": "Gilead Municipal Electric", "category": "ELECTRIC" },
-  { "zip": "90202", "provider": "Gilead Waterworks", "category": "WATER" },
-  { "zip": "90202", "provider": "Eyes of Gilead Telecom", "category": "INTERNET" },
-  { "zip": "90202", "provider": "Aunt Lydia Waste Services", "category": "TRASH" },
-
-  { "zip": "90301", "provider": "Arasaka Power Grid", "category": "ELECTRIC" },
-  { "zip": "90301", "provider": "Militech Gas", "category": "GAS" },
-  { "zip": "90301", "provider": "Night City Water Works", "category": "WATER" },
-  { "zip": "90301", "provider": "Kang Tao Broadband", "category": "INTERNET" },
-  { "zip": "90301", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90301", "provider": "Trauma Team Sanitation", "category": "TRASH" },
-
-  { "zip": "90302", "provider": "Arasaka Power Grid", "category": "ELECTRIC" },
-  { "zip": "90302", "provider": "Militech Gas", "category": "GAS" },
-  { "zip": "90302", "provider": "Night City Water Works", "category": "WATER" },
-  { "zip": "90302", "provider": "Kang Tao Broadband", "category": "INTERNET" },
-  { "zip": "90302", "provider": "Trauma Team Sanitation", "category": "TRASH" },
-
-  { "zip": "90401", "provider": "Flux Electric", "category": "ELECTRIC" },
-  { "zip": "90401", "provider": "Doc Brown Gas Co.", "category": "GAS" },
-  { "zip": "90401", "provider": "Clock Tower Water", "category": "WATER" },
-  { "zip": "90401", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90401", "provider": "Biff's Disposal", "category": "TRASH" },
-
-  { "zip": "90402", "provider": "Flux Electric", "category": "ELECTRIC" },
-  { "zip": "90402", "provider": "Clock Tower Water", "category": "WATER" },
-  { "zip": "90402", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90402", "provider": "Biff's Disposal", "category": "TRASH" },
-
-  { "zip": "90501", "provider": "Hawkins Power & Light", "category": "ELECTRIC" },
-  { "zip": "90501", "provider": "Hawkins Municipal Water", "category": "WATER" },
-  { "zip": "90501", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90501", "provider": "Hawkins Lab Waste Disposal", "category": "TRASH" },
-
-  { "zip": "90502", "provider": "Hawkins Power & Light", "category": "ELECTRIC" },
-  { "zip": "90502", "provider": "Hawkins Municipal Water", "category": "WATER" },
-  { "zip": "90502", "provider": "Skynet Fiber", "category": "INTERNET" },
-  { "zip": "90502", "provider": "Hawkins Lab Waste Disposal", "category": "TRASH" }
+  {
+    "zip": "01602",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01603",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01604",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01605",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01606",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01607",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01608",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01609",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "01610",
+    "provider": "National Grid (Massachusetts Electric Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02108",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02109",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02110",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02111",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02113",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02114",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02115",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02116",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02118",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02133",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02163",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02199",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02203",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02210",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "02215",
+    "provider": "Eversource (NSTAR Electric Company)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10001",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10002",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10003",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10004",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10005",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10006",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10007",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10009",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10010",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10011",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10012",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10013",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10014",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10016",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10017",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10018",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10019",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10020",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10021",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10022",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10023",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10024",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10025",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10026",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10027",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10028",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10029",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10030",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10031",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10032",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10033",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10034",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10035",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10036",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10037",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10038",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10039",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10040",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10044",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10065",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10069",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10075",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10103",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10110",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10111",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10112",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10115",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10119",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10128",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10152",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10153",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10154",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10162",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10165",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10167",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10168",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10169",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10170",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10171",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10172",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10173",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10174",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10177",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10199",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10271",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10278",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10279",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10280",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10282",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10301",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10302",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10303",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10304",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10305",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10306",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10307",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10308",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10309",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10310",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10311",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10312",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10314",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10451",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10452",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10453",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10454",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10455",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10456",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10457",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10458",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10459",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10460",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10461",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10462",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10463",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10464",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10465",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10466",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10467",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10468",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10469",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10470",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10471",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10472",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10473",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10474",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "10475",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11004",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11005",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11101",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11102",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11103",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11104",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11105",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11106",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11109",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11201",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11203",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11204",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11205",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11206",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11207",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11208",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11209",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11210",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11211",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11212",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11213",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11214",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11215",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11216",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11217",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11218",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11219",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11220",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11221",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11222",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11223",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11224",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11225",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11226",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11228",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11229",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11230",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11231",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11232",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11233",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11234",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11235",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11236",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11237",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11238",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11239",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11249",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11354",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11355",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11356",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11357",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11358",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11359",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11360",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11361",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11362",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11363",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11364",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11365",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11366",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11367",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11368",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11369",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11370",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11371",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11372",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11373",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11374",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11375",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11377",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11378",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11379",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11385",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11411",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11412",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11413",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11414",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11415",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11416",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11417",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11418",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11419",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11420",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11421",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11422",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11423",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11426",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11427",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11428",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11429",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11430",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11432",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11433",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11434",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11435",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11436",
+    "provider": "Con Edison (Consolidated Edison Co-NY Inc)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11691",
+    "provider": "PSEG Long Island (Long Island Power Authority)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11692",
+    "provider": "PSEG Long Island (Long Island Power Authority)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11693",
+    "provider": "PSEG Long Island (Long Island Power Authority)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11694",
+    "provider": "PSEG Long Island (Long Island Power Authority)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "11697",
+    "provider": "PSEG Long Island (Long Island Power Authority)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19102",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19103",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19104",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19106",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19107",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19109",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19111",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19112",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19113",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19114",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19115",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19116",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19118",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19119",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19120",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19121",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19122",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19123",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19124",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19125",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19126",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19127",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19128",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19129",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19130",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19131",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19132",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19133",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19134",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19135",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19136",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19137",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19138",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19139",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19140",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19141",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19142",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19143",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19144",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19145",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19146",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19147",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19148",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19149",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19150",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19151",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19152",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19153",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "19154",
+    "provider": "PECO Energy Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20001",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20002",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20003",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20004",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20005",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20006",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20007",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20008",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20009",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20010",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20011",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20012",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20015",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20016",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20017",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20018",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20019",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20020",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20024",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20032",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20036",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20037",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20045",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "20260",
+    "provider": "Pepco (Potomac Electric Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28202",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28203",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28204",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28205",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28206",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28207",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28208",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28209",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28210",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28211",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28212",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28213",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28214",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28215",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28216",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28217",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28226",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28227",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28244",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28262",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28269",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28270",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28273",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28277",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28278",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28280",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "28282",
+    "provider": "Duke Energy Carolinas, LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32202",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32204",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32205",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32206",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32207",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32208",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32209",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32210",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32211",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32212",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32216",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32217",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32218",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32219",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32220",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32221",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32222",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32223",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32224",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32225",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32226",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32227",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32234",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32244",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32246",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32254",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32256",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32257",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32258",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "32277",
+    "provider": "JEA",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37201",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37203",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37204",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37205",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37206",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37207",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37208",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37209",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37210",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37211",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37212",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37213",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37214",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37215",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37216",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37217",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37218",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37219",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37220",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37221",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37228",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "37238",
+    "provider": "Nashville Electric Service",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43085",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43201",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43202",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43203",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43204",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43205",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43206",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43207",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43209",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43210",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43211",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43212",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43213",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43214",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43215",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43217",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43219",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43220",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43221",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43222",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43223",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43224",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43227",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43228",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43229",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43230",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43231",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43232",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43235",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "43240",
+    "provider": "AEP Ohio (Ohio Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46201",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46202",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46203",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46204",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46205",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46208",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46214",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46216",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46217",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46218",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46219",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46220",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46221",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46222",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46224",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46225",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46226",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46227",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46228",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46229",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46231",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46234",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46235",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46236",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46237",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46239",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46240",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46241",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46250",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46254",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46256",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46259",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46260",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46268",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46278",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46280",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "46290",
+    "provider": "AES Indiana",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60601",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60602",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60603",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60604",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60605",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60606",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60607",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60608",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60609",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60610",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60611",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60612",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60613",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60614",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60615",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60616",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60617",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60618",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60619",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60620",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60621",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60622",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60623",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60624",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60625",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60626",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60628",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60629",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60630",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60631",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60632",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60633",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60634",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60636",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60637",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60638",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60639",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60640",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60641",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60642",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60643",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60644",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60645",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60646",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60647",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60649",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60651",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60652",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60653",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60654",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60655",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60656",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60657",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60659",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60660",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "60661",
+    "provider": "ComEd (Commonwealth Edison Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73102",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73103",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73104",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73105",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73106",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73107",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73108",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73109",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73110",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73111",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73112",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73114",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73115",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73116",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73117",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73118",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73119",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73120",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73121",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73122",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73127",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73128",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73129",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73130",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73131",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73132",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73134",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73135",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73139",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73141",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73142",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73145",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73149",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73150",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73151",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73159",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73160",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73162",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73165",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73169",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73170",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73173",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "73179",
+    "provider": "Oklahoma Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75201",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75202",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75203",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75204",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75205",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75206",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75207",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75208",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75209",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75210",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75211",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75212",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75214",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75215",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75216",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75217",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75218",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75219",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75220",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75223",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75224",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75225",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75226",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75227",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75228",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75229",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75230",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75231",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75232",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75233",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75234",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75235",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75236",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75237",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75238",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75240",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75241",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75243",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75244",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75246",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75247",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75248",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75249",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75251",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75252",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75253",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75254",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75270",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "75287",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76102",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76103",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76104",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76105",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76106",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76107",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76108",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76109",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76110",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76111",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76112",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76114",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76115",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76116",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76118",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76119",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76120",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76123",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76126",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76131",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76132",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76133",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76134",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76135",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76137",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76140",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76148",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76155",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76164",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76177",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "76179",
+    "provider": "Oncor Electric Delivery Company LLC",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77002",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77003",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77004",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77005",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77006",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77007",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77008",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77009",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77010",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77011",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77012",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77013",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77014",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77015",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77016",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77017",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77018",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77019",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77020",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77021",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77022",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77023",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77024",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77025",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77026",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77027",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77028",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77029",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77030",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77031",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77032",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77033",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77034",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77035",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77036",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77037",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77038",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77039",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77040",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77041",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77042",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77043",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77044",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77045",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77046",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77047",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77048",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77049",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77050",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77051",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77053",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77054",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77055",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77056",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77057",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77058",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77059",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77060",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77061",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77062",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77063",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77064",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77065",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77066",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77067",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77068",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77069",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77070",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77071",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77072",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77073",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77074",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77075",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77076",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77077",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77078",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77079",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77080",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77081",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77082",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77083",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77084",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77085",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77086",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77087",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77088",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77089",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77090",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77091",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77092",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77093",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77094",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77095",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77096",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77098",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "77099",
+    "provider": "CenterPoint Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78201",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78202",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78203",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78204",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78205",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78207",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78208",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78209",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78210",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78211",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78212",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78213",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78214",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78215",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78216",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78217",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78218",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78219",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78220",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78221",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78222",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78223",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78224",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78225",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78226",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78227",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78228",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78229",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78230",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78231",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78232",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78233",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78235",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78237",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78238",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78239",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78240",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78242",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78243",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78244",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78245",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78247",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78248",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78249",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78250",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78251",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78252",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78253",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78254",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78255",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78256",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78257",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78258",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78259",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78260",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78261",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78263",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78264",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78266",
+    "provider": "CPS Energy (City of San Antonio)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78701",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78702",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78703",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78704",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78705",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78712",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78717",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78719",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78721",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78722",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78723",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78724",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78725",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78726",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78727",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78728",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78729",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78730",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78731",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78732",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78733",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78734",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78735",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78736",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78737",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78738",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78739",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78741",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78742",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78744",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78745",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78746",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78747",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78748",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78749",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78750",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78751",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78752",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78753",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78754",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78756",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78757",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78758",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "78759",
+    "provider": "Austin Energy",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79901",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79902",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79903",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79904",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79905",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79906",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79907",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79908",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79911",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79912",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79915",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79922",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79924",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79925",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79927",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79928",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79930",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79932",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79934",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79935",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79936",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "79938",
+    "provider": "El Paso Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80202",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80203",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80204",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80205",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80206",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80207",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80209",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80210",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80211",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80212",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80214",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80215",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80216",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80218",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80219",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80220",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80221",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80222",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80223",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80224",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80226",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80227",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80228",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80229",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80230",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80231",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80232",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80233",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80234",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80235",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80236",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80237",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80238",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80239",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80246",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80247",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80249",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80260",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80264",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80266",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80290",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80293",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "80294",
+    "provider": "Xcel Energy (Public Service Co of Colorado)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85003",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85003",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85004",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85004",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85006",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85006",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85007",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85007",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85008",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85008",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85009",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85009",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85012",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85012",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85013",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85013",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85014",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85014",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85015",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85015",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85016",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85016",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85017",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85017",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85018",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85018",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85019",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85019",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85020",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85020",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85021",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85021",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85022",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85022",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85023",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85023",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85024",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85024",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85026",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85026",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85027",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85027",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85028",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85028",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85029",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85029",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85031",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85031",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85032",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85032",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85033",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85033",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85034",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85034",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85035",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85035",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85037",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85037",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85040",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85040",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85041",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85041",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85042",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85042",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85043",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85043",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85044",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85044",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85045",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85045",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85048",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85048",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85050",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85050",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85051",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85051",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85053",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85053",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85054",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85054",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85083",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85083",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85085",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85085",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85086",
+    "provider": "Arizona Public Service Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "85086",
+    "provider": "Salt River Project",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89101",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89102",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89103",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89104",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89106",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89107",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89108",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89109",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89110",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89113",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89115",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89117",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89118",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89119",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89120",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89121",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89122",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89123",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89124",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89128",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89129",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89130",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89131",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89134",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89135",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89138",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89139",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89141",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89142",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89143",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89144",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89145",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89146",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89147",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89148",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89149",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89156",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89158",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89161",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89166",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89169",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89178",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89179",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "89183",
+    "provider": "NV Energy (Nevada Power Co)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90001",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90002",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90003",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90004",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90005",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90006",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90007",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90008",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90010",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90011",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90012",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90013",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90014",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90015",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90016",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90017",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90018",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90019",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90020",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90021",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90022",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90023",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90024",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90025",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90026",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90027",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90028",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90029",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90031",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90032",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90033",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90034",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90035",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90036",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90037",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90038",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90039",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90040",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90041",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90042",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90043",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90044",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90045",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90046",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90047",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90048",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90049",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90056",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90057",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90058",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90059",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90061",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90062",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90063",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90064",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90065",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90066",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90067",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90068",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90071",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90077",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "90079",
+    "provider": "Los Angeles Department of Water & Power",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92101",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92102",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92103",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92104",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92105",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92106",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92107",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92108",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92109",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92110",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92111",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92113",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92114",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92115",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92116",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92117",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92119",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92120",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92121",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92122",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92123",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92124",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92126",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92127",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92128",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92129",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92130",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92131",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92139",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "92154",
+    "provider": "San Diego Gas & Electric Co",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94102",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94103",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94104",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94105",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94107",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94108",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94109",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94110",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94111",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94112",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94114",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94115",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94116",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94117",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94118",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94121",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94122",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94123",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94124",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94127",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94128",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94129",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94130",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94131",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94132",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94133",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94134",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94158",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "94188",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95110",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95111",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95112",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95113",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95116",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95117",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95118",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95119",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95120",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95121",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95122",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95123",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95124",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95125",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95126",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95127",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95128",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95129",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95130",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95131",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95132",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95133",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95134",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95135",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95136",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95138",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95139",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "95148",
+    "provider": "Pacific Gas & Electric Co.",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98101",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98102",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98103",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98104",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98105",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98106",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98107",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98108",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98109",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98112",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98115",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98116",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98117",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98118",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98119",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98121",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98122",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98125",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98126",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98133",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98134",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98136",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98144",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98146",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98148",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98154",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98155",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98158",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98164",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98166",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98168",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98174",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98177",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98178",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98188",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98198",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  },
+  {
+    "zip": "98199",
+    "provider": "Seattle City Light (City of Seattle)",
+    "category": "ELECTRIC"
+  }
 ]
