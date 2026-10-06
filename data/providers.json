@@ -9,6 +9,9 @@
     "name": "Arizona Public Service Co"
   },
   {
+    "name": "Atmos Energy"
+  },
+  {
     "name": "Austin Energy"
   },
   {
@@ -16,6 +19,12 @@
   },
   {
     "name": "CenterPoint Energy"
+  },
+  {
+    "name": "Citizens Energy Group"
+  },
+  {
+    "name": "Columbia Gas of Ohio"
   },
   {
     "name": "ComEd (Commonwealth Edison Co)"
@@ -28,6 +37,9 @@
   },
   {
     "name": "El Paso Electric Co"
+  },
+  {
+    "name": "Eversource (Eversource Gas Company of Massachusetts)"
   },
   {
     "name": "Eversource (NSTAR Electric Company)"
@@ -45,10 +57,22 @@
     "name": "Nashville Electric Service"
   },
   {
+    "name": "National Grid (Boston Gas Company)"
+  },
+  {
+    "name": "National Grid (Brooklyn Union Gas Company)"
+  },
+  {
+    "name": "National Grid (KeySpan Gas East Corporation)"
+  },
+  {
     "name": "National Grid (Massachusetts Electric Co)"
   },
   {
     "name": "Oklahoma Gas & Electric Co"
+  },
+  {
+    "name": "Oklahoma Natural Gas"
   },
   {
     "name": "Oncor Electric Delivery Company LLC"
@@ -63,7 +87,22 @@
     "name": "Pacific Gas & Electric Co."
   },
   {
+    "name": "Peoples Gas (Peoples Gas Light and Coke Co)"
+  },
+  {
+    "name": "Peoples Gas (Peoples Gas System, Florida)"
+  },
+  {
     "name": "Pepco (Potomac Electric Power Co)"
+  },
+  {
+    "name": "Philadelphia Gas Works"
+  },
+  {
+    "name": "Piedmont Natural Gas"
+  },
+  {
+    "name": "Puget Sound Energy"
   },
   {
     "name": "Salt River Project"
@@ -73,6 +112,18 @@
   },
   {
     "name": "Seattle City Light (City of Seattle)"
+  },
+  {
+    "name": "SoCalGas (Southern California Gas Co)"
+  },
+  {
+    "name": "Southwest Gas"
+  },
+  {
+    "name": "Texas Gas Service"
+  },
+  {
+    "name": "Washington Gas (Washington Gas Light Co)"
   },
   {
     "name": "Xcel Energy (Public Service Co of Colorado)"
