@@ -15,16 +15,48 @@
     "name": "Austin Energy"
   },
   {
+    "name": "Austin Water",
+    "website": "https://www.austintexas.gov/water"
+  },
+  {
+    "name": "Boston Water and Sewer Commission",
+    "website": "https://www.bwsc.org"
+  },
+  {
     "name": "CPS Energy (City of San Antonio)"
   },
   {
     "name": "CenterPoint Energy"
   },
   {
+    "name": "Charlotte Water",
+    "website": "https://www.charlottenc.gov/water"
+  },
+  {
     "name": "Citizens Energy Group"
   },
   {
+    "name": "City of Chicago Department of Water Management",
+    "website": "https://www.chicago.gov/city/en/depts/water.html"
+  },
+  {
+    "name": "City of Phoenix Water Services Department",
+    "website": "https://www.phoenix.gov/waterservices"
+  },
+  {
+    "name": "City of San Diego Public Utilities Department",
+    "website": "https://www.sandiego.gov/public-utilities"
+  },
+  {
+    "name": "City of Worcester Water and Sewer Operations",
+    "website": "https://www.worcesterma.gov/water-sewer"
+  },
+  {
     "name": "Columbia Gas of Ohio"
+  },
+  {
+    "name": "Columbus Water & Power",
+    "website": "https://www.columbus.gov/utilities"
   },
   {
     "name": "ComEd (Commonwealth Edison Co)"
@@ -33,10 +65,26 @@
     "name": "Con Edison (Consolidated Edison Co-NY Inc)"
   },
   {
+    "name": "DC Water",
+    "website": "https://www.dcwater.com"
+  },
+  {
+    "name": "Dallas Water Utilities",
+    "website": "https://dallascityhall.com/departments/waterutilities"
+  },
+  {
+    "name": "Denver Water",
+    "website": "https://www.denverwater.org"
+  },
+  {
     "name": "Duke Energy Carolinas, LLC"
   },
   {
     "name": "El Paso Electric Co"
+  },
+  {
+    "name": "El Paso Water",
+    "website": "https://www.epwater.org"
   },
   {
     "name": "Eversource (Eversource Gas Company of Massachusetts)"
@@ -45,13 +93,33 @@
     "name": "Eversource (NSTAR Electric Company)"
   },
   {
+    "name": "Fort Worth Water Department",
+    "website": "https://www.fortworthtexas.gov/departments/water"
+  },
+  {
+    "name": "Houston Water",
+    "website": "https://houstonpublicworks.org/houston-water"
+  },
+  {
     "name": "JEA"
+  },
+  {
+    "name": "Las Vegas Valley Water District",
+    "website": "https://www.lvvwd.com"
   },
   {
     "name": "Los Angeles Department of Water & Power"
   },
   {
+    "name": "Metro Water Services",
+    "website": "https://www.nashville.gov/departments/water"
+  },
+  {
     "name": "NV Energy (Nevada Power Co)"
+  },
+  {
+    "name": "NYC Department of Environmental Protection",
+    "website": "https://www.nyc.gov/dep"
   },
   {
     "name": "Nashville Electric Service"
@@ -67,6 +135,10 @@
   },
   {
     "name": "National Grid (Massachusetts Electric Co)"
+  },
+  {
+    "name": "Oklahoma City Utilities Department",
+    "website": "https://www.okc.gov/departments/utilities"
   },
   {
     "name": "Oklahoma Gas & Electric Co"
@@ -99,6 +171,10 @@
     "name": "Philadelphia Gas Works"
   },
   {
+    "name": "Philadelphia Water Department",
+    "website": "https://water.phila.gov"
+  },
+  {
     "name": "Piedmont Natural Gas"
   },
   {
@@ -108,10 +184,26 @@
     "name": "Salt River Project"
   },
   {
+    "name": "San Antonio Water System",
+    "website": "https://www.saws.org"
+  },
+  {
     "name": "San Diego Gas & Electric Co"
   },
   {
+    "name": "San Francisco Public Utilities Commission",
+    "website": "https://www.sfpuc.gov"
+  },
+  {
+    "name": "San Jose Water Company",
+    "website": "https://www.sjwater.com"
+  },
+  {
     "name": "Seattle City Light (City of Seattle)"
+  },
+  {
+    "name": "Seattle Public Utilities",
+    "website": "https://www.seattle.gov/utilities"
   },
   {
     "name": "SoCalGas (Southern California Gas Co)"
