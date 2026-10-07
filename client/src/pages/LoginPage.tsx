@@ -23,7 +23,7 @@ export default function LoginPage() {
           />
           <div
             aria-hidden="true"
-            className="absolute inset-0 bg-gradient-to-r from-slate-950/50 via-slate-950/60 to-slate-950"
+            className="absolute inset-0 bg-gradient-to-r    from-slate-950/50 via-slate-950/60 to-slate-950"
           />
           <div
             aria-hidden="true"
@@ -36,11 +36,11 @@ export default function LoginPage() {
 
           <div className="relative max-w-md">
             <h1 className="text-4xl leading-tight font-semibold tracking-tight">
-              Every utility provider for your address, in one place.
+              Just Moved?
             </h1>
             <p className="mt-4 text-lg text-slate-300">
-              Skip the dozen browser tabs. Compare what's available the moment
-              you move.
+              Utilicheck shows you every provider at your address, so you can
+              find your best option
             </p>
           </div>
         </aside>
