@@ -1,5 +1,5 @@
 import { Show, SignInButton, UserButton } from "@clerk/react";
-import { Link, useLocation } from "react-router";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "./Logo";
 import Search from "./Search";
 
