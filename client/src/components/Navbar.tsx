@@ -1,27 +1,48 @@
 import { Show, SignInButton, UserButton } from "@clerk/react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router";
 import Logo from "./Logo";
+import Search from "./Search";
 
 export default function Navbar() {
-  return (
-    <header className="flex items-center justify-between bg-slate-950 px-6 py-4 text-white">
-      <Link to="/" className="text-lg">
-        <Logo />
-      </Link>
+  const location = useLocation();
+  const isHomepage = location.pathname === "/";
 
+  return (
+    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[10vh] bg-slate-950 px-6 py-4 text-white">
+      <div>
+        <Link to="/" className="text-lg">
+          <Logo />
+        </Link>
+
+        {!isHomepage && (
+          <div className="ml-4 inline-block">
+            <Search />
+          </div>
+        )}
+      </div>
       <Show when="signed-out">
         <SignInButton>
           <button
             type="button"
-            className="rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-teal-500"
+            className=" group rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-teal-500"
           >
-            Sign in
+            <span className="inline-block font-bold transition-transform duration-200 group-hover:scale-125">
+              Sign In
+            </span>
           </button>
         </SignInButton>
       </Show>
       <Show when="signed-in">
-        <UserButton />
+        <UserButton
+          appearance={{
+            elements: {
+              userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
+              userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
+              userButtonAvatarImg: "w-12 h-12",
+            },
+          }}
+        />
       </Show>
-    </header>
+    </nav>
   );
 }
