@@ -1,5 +1,5 @@
 import { Show, SignInButton, UserButton } from "@clerk/react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
 export default function Navbar() {
