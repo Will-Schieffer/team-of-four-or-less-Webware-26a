@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config({ path: '../.env' });
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -5,6 +7,7 @@ import rateLimit from 'express-rate-limit';
 import { clerkMiddleware } from '@clerk/express';
 import utilityRoutes from './routes/utilities';
 import userRoutes from './routes/users';
+
 
 const app = express();
 
