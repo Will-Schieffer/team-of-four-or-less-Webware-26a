@@ -22,12 +22,13 @@ enum UtilityCategory {
 }
 
 model Place {
-  zip       String     @id @db.Char(5)
-  city      String
-  state     String     @db.Char(2)
-  lat       Float?
-  lng       Float?
-  offerings Offering[]
+  zip           String        @id @db.Char(5)
+  city          String
+  state         String        @db.Char(2)
+  lat           Float?
+  lng           Float?
+  offerings     Offering[]
+  savedSearches SavedSearch[]
 
   @@index([city, state])
 }
@@ -54,7 +55,20 @@ model Offering {
 }
 
 model User {
-  id      Int     @id @default(autoincrement())
-  clerkId String  @unique
-  email   String?
+  id            Int           @id @default(autoincrement())
+  clerkId       String        @unique
+  email         String?
+  savedSearches SavedSearch[]
+}
+
+model SavedSearch {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  zip       String   @db.Char(5)
+  createdAt DateTime @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  place Place @relation(fields: [zip], references: [zip], onDelete: Cascade)
+
+  @@unique([userId, zip]) // Prevents saving the same ZIP twice
 }
