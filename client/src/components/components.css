@@ -1,0 +1,27 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    padding: 20px;
+}
+
+.search-bar {
+    border: aquamarine;
+    border-radius: 25%;
+}
+
+button {
+    border-radius: 25%;
+}
