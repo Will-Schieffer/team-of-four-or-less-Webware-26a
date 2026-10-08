@@ -8,7 +8,7 @@ export default function Navbar() {
   const isHomepage = location.pathname === "/";
 
   return (
-    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[10vh] bg-slate-950 px-6 py-4 text-white">
+    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[8vh] bg-slate-950 px-6 py-4 text-white">
       <div>
         <Link to="/" className="text-lg">
           <Logo />

@@ -6,9 +6,9 @@ export default function HomePage() {
     <main className="flex flex-col items-center min-h-screen bg-slate-950 text-white overflow-x-hidden">
       <Navbar />
       <div 
-        className="w-full min-h-[calc(100vh-10vh)] mt-[10vh] bg-no-repeat"
+        className="w-full min-h-[calc(100vh-10vh)] mt-[8vh] bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 23, 0) 60%, rgba(2, 6, 23, 1) 100%),
+          backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 24, 0) 60%, rgba(2, 6, 24, 1) 100%),
             url('/homepage.jpg')`,
           backgroundPosition: "top center",
           backgroundSize: "115% auto"
