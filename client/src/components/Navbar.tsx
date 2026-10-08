@@ -31,7 +31,11 @@ export default function Navbar() {
         </SignInButton>
       </Show>
       <Show when="signed-in">
-        <UserButton />
+        <UserButton appearance={{ elements: {
+          userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
+          userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
+          userButtonAvatarImg: "w-12 h-12"
+        }}} />
       </Show>
     </nav>
   );
