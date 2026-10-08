@@ -1,5 +1,5 @@
 import { Show, SignInButton, UserButton } from "@clerk/react";
-import { Link, useLocation } from "react-router";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "./Logo";
 import Search from "./Search";
 
@@ -19,23 +19,29 @@ export default function Navbar() {
             <Search />
           </div>
         )}
-      </div> 
+      </div>
       <Show when="signed-out">
         <SignInButton>
           <button
             type="button"
             className=" group rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-teal-500"
           >
-            <span className='inline-block font-bold transition-transform duration-200 group-hover:scale-125'>Sign In</span>
+            <span className="inline-block font-bold transition-transform duration-200 group-hover:scale-125">
+              Sign In
+            </span>
           </button>
         </SignInButton>
       </Show>
       <Show when="signed-in">
-        <UserButton appearance={{ elements: {
-          userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
-          userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
-          userButtonAvatarImg: "w-12 h-12"
-        }}} />
+        <UserButton
+          appearance={{
+            elements: {
+              userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
+              userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
+              userButtonAvatarImg: "w-12 h-12",
+            },
+          }}
+        />
       </Show>
     </nav>
   );
