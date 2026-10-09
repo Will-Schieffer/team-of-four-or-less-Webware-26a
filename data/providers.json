@@ -6,7 +6,15 @@
     "name": "AES Indiana"
   },
   {
+    "name": "AT&T Internet",
+    "website": "https://www.att.com/internet/"
+  },
+  {
     "name": "Arizona Public Service Co"
+  },
+  {
+    "name": "Astound Broadband",
+    "website": "https://www.astound.com"
   },
   {
     "name": "Atmos Energy"
@@ -23,10 +31,18 @@
     "website": "https://www.bwsc.org"
   },
   {
+    "name": "Breezeline",
+    "website": "https://www.breezeline.com"
+  },
+  {
     "name": "CPS Energy (City of San Antonio)"
   },
   {
     "name": "CenterPoint Energy"
+  },
+  {
+    "name": "CenturyLink (Quantum Fiber)",
+    "website": "https://www.centurylink.com"
   },
   {
     "name": "Charlotte Water",
@@ -65,6 +81,10 @@
     "name": "Con Edison (Consolidated Edison Co-NY Inc)"
   },
   {
+    "name": "Cox",
+    "website": "https://www.cox.com"
+  },
+  {
     "name": "DC Water",
     "website": "https://www.dcwater.com"
   },
@@ -95,6 +115,10 @@
   {
     "name": "Fort Worth Water Department",
     "website": "https://www.fortworthtexas.gov/departments/water"
+  },
+  {
+    "name": "Google Fiber",
+    "website": "https://fiber.google.com"
   },
   {
     "name": "Houston Water",
@@ -148,6 +172,10 @@
   },
   {
     "name": "Oncor Electric Delivery Company LLC"
+  },
+  {
+    "name": "Optimum",
+    "website": "https://www.optimum.com"
   },
   {
     "name": "PECO Energy Co"
@@ -209,15 +237,35 @@
     "name": "SoCalGas (Southern California Gas Co)"
   },
   {
+    "name": "Sonic",
+    "website": "https://www.sonic.com"
+  },
+  {
     "name": "Southwest Gas"
   },
   {
+    "name": "Spectrum",
+    "website": "https://www.spectrum.com"
+  },
+  {
+    "name": "T-Mobile Fiber",
+    "website": "https://www.t-mobile.com"
+  },
+  {
     "name": "Texas Gas Service"
+  },
+  {
+    "name": "Verizon Fios",
+    "website": "https://www.verizon.com/home/fios/"
   },
   {
     "name": "Washington Gas (Washington Gas Light Co)"
   },
   {
     "name": "Xcel Energy (Public Service Co of Colorado)"
+  },
+  {
+    "name": "Xfinity",
+    "website": "https://www.xfinity.com"
   }
 ]
