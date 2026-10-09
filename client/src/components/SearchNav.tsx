@@ -13,7 +13,7 @@ export default function Search() {
   };
 
   return (
-    <form onSubmit={handleSearch} className="flex items-center justify-center bg-white rounded-lg shadow-md w-2/5 ">
+    <form onSubmit={handleSearch} className="flex items-center justify-center bg-white rounded-lg shadow-md w-100 max-h-[8vh]">
       <input
         className='placeholder-slate-950 text-slate-950 focus:outline-none p-4 w-full'
         type="text"
@@ -22,7 +22,7 @@ export default function Search() {
         onChange={(e) => setUserInput(e.target.value)}
         required
       />
-      <button type="submit" className='group cursor-pointer text-slate-950 bg-teal-600 text-white transition hover:bg-teal-500 rounded-r-lg p-4 font-bold h-full'>
+      <button type="submit" className='group cursor-pointer text-slate-950 bg-teal-600 text-white transition hover:bg-teal-500 rounded-r-lg p-4 font-bold h-full max-h-[8vh]'>
         <span className='inline-block transition-transform duration-200 group-hover:scale-125'>Search</span>
       </button>
     </form>

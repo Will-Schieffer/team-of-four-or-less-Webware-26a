@@ -1,7 +1,7 @@
 import { Show, SignInButton, UserButton } from "@clerk/react";
 import { Link, useLocation } from "react-router";
 import Logo from "./Logo";
-import Search from "./Search";
+import SearchNav from "./SearchNav";
 import BookmarksDropdown from "./BookmarksDropdown";
 
 export default function Navbar() {
@@ -9,15 +9,15 @@ export default function Navbar() {
   const isHomepage = location.pathname === "/";
 
   return (
-    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[10vh] bg-slate-950 px-6 py-4 text-white z-40">
-      <div>
-        <Link to="/" className="text-lg">
-          <Logo />
+    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[8vh] bg-slate-950 px-6 py-4 text-white z-40">
+      <div className="flex items-center">
+        <Link to="/" className="text-lg pr-2">
+          <Logo className="transition-transform duration-200 hover:scale-125" />
         </Link>
 
         {!isHomepage && (
           <div className="ml-4 inline-block">
-            <Search />
+            <SearchNav />
           </div>
         )}
       </div>

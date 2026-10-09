@@ -29,10 +29,11 @@ export default function RootLayout() {
       signInFallbackRedirectUrl="/"
       signUpFallbackRedirectUrl="/"
     >
+      <title>Utilicheck</title>
       <BookmarksProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/results/:zip" element={<ResultsPage />} />
+          <Route path="/results/:userInput" element={<ResultsPage />} />
           <Route path="/sign-in/*" element={<LoginPage />} />
         </Routes>
       </BookmarksProvider>

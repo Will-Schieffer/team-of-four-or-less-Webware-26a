@@ -1,26 +1,39 @@
 import { Router } from 'express';
 import { PrismaClient } from '@prisma/client';
-import { z } from 'zod';
+import { util, z } from 'zod';
 
 const router = Router();
 const prisma = new PrismaClient();
 
 // Validation schema for ZIP codes
-const zipSchema = z.string().regex(/^\d{5}$/, "Must be a valid 5-digit ZIP code");
+const zipSchema = /^\d{5}$/
 
 /**
- * GET /api/utilities/:zip
- * Retrieves all utility offerings for a specific ZIP code.
- * This is public, but rate-limited globally.
+ * GET /api/utilities/:userInput
  */
-router.get('/:zip', async (req, res) => {
+router.get('/:userInput', async (req, res) => {
     try {
         // Validate Input
-        const zip = zipSchema.parse(req.params.zip);
+        const rawInput = req.params.userInput.trim();
 
-        // query Prisma
+        const isZipCode = zipSchema.test(rawInput);
+
+        let condition: any;
+        if (isZipCode) {
+            condition = { zip: rawInput };
+        } else {
+            condition = {
+                place: {
+                    city: {
+                        contains: rawInput,
+                        mode: 'insensitive' as const,
+                    },
+                },
+            };
+        }
+
         const offerings = await prisma.offering.findMany({
-            where: { zip },
+            where: condition,
             include: {
                 provider: true,
                 place: true,
@@ -28,9 +41,12 @@ router.get('/:zip', async (req, res) => {
         });
 
         if (!offerings.length) {
-            return res.status(404).json({ message: 'No utilities found for this ZIP code.' });
+            return res.status(404).json({ 
+                message: isZipCode
+                ? 'No utilities for this ZIP Code'
+                : 'No utilities for this city'
+            });
         }
-
 
         const groupedOfferings = offerings.reduce((acc: { [x: string]: any[]; }, offering: { category: any; }) => {
             const { category } = offering;
@@ -42,7 +58,7 @@ router.get('/:zip', async (req, res) => {
         res.json({
             place: offerings[0].place,
             utilities: groupedOfferings
-        });
+        })
 
     } catch (error) {
         if (error instanceof z.ZodError) {
@@ -51,30 +67,6 @@ router.get('/:zip', async (req, res) => {
         }
         console.error('Error fetching utilities:', error);
         res.status(500).json({ error: 'Internal server error' });
-    }
-});
-
-/**
- * GET /api/utilities/search/city
- * Allows searching by city/state if the user doesn't know their ZIP.
- */
-router.get('/search/city', async (req, res) => {
-    try {
-        const cityQuery = z.string().min(2).parse(req.query.q);
-
-        const places = await prisma.place.findMany({
-            where: {
-                city: {
-                    contains: cityQuery,
-                    mode: 'insensitive',
-                }
-            },
-            take: 10,
-        });
-
-        res.json(places);
-    } catch (error) {
-        res.status(400).json({ error: 'Invalid search query' });
     }
 });
 
