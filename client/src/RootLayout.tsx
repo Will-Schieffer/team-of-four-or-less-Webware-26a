@@ -1,6 +1,6 @@
 import { ClerkProvider } from "@clerk/react";
-import { Route, Routes, useNavigate } from "react-router-dom";
-import App from "./App.tsx";
+import { Route, Routes, useNavigate } from "react-router";
+import HomePage from "./pages/Homepage.tsx";
 import LoginPage from "./pages/LoginPage.tsx";
 import ResultsPage from "./pages/ResultsPage.tsx";
 
@@ -18,22 +18,22 @@ export default function RootLayout() {
   const navigate = useNavigate();
 
   return (
-      <ClerkProvider
-          publishableKey={PUBLISHABLE_KEY}
-          appearance={appearance}
-          routerPush={(to) => navigate(to)}
-          routerReplace={(to) => navigate(to, { replace: true })}
-          afterSignOutUrl="/"
-          signInUrl="/sign-in"
-          signInFallbackRedirectUrl="/"
-          signUpFallbackRedirectUrl="/"
-      >
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/results/:zip" element={<ResultsPage />} />
-          {/* Must be a splat route so Clerk's nested steps resolve */}
-          <Route path="/sign-in/*" element={<LoginPage />} />
-        </Routes>
-      </ClerkProvider>
+    <ClerkProvider
+      publishableKey={PUBLISHABLE_KEY}
+      appearance={appearance}
+      routerPush={(to) => navigate(to)}
+      routerReplace={(to) => navigate(to, { replace: true })}
+      afterSignOutUrl="/"
+      signInUrl="/sign-in"
+      signInFallbackRedirectUrl="/"
+      signUpFallbackRedirectUrl="/"
+    >
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/results/:zip" element={<ResultsPage />} />
+        {/* Must be a splat route so Clerk's nested steps resolve */}
+        <Route path="/sign-in/*" element={<LoginPage />} />
+      </Routes>
+    </ClerkProvider>
   );
 }
