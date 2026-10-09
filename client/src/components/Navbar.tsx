@@ -2,13 +2,14 @@ import { Show, SignInButton, UserButton } from "@clerk/react";
 import { Link, useLocation } from "react-router";
 import Logo from "./Logo";
 import Search from "./Search";
+import BookmarksDropdown from "./BookmarksDropdown";
 
 export default function Navbar() {
   const location = useLocation();
   const isHomepage = location.pathname === "/";
 
   return (
-    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[10vh] bg-slate-950 px-6 py-4 text-white">
+    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[10vh] bg-slate-950 px-6 py-4 text-white z-40">
       <div>
         <Link to="/" className="text-lg">
           <Logo />
@@ -33,15 +34,18 @@ export default function Navbar() {
         </SignInButton>
       </Show>
       <Show when="signed-in">
-        <UserButton
-          appearance={{
-            elements: {
-              userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
-              userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
-              userButtonAvatarImg: "w-12 h-12",
-            },
-          }}
-        />
+        <div className="flex items-center gap-3">
+          <BookmarksDropdown />
+          <UserButton
+            appearance={{
+              elements: {
+                userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
+                userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
+                userButtonAvatarImg: "w-12 h-12",
+              },
+            }}
+          />
+        </div>
       </Show>
     </nav>
   );
