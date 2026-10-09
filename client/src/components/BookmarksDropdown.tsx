@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { Link, useLocation } from "react-router";
 import { useBookmarks } from "../BookmarksContext";
 
@@ -10,10 +10,11 @@ export default function BookmarksDropdown() {
   const container = useRef<HTMLDivElement>(null);
   const trigger = useRef<HTMLButtonElement>(null);
   const location = useLocation();
+  const panelId = useId();
 
   useEffect(() => {
     setOpen(false);
-  }, [location.pathname]);
+  }, [location.pathname, location.search]);
 
   useEffect(() => {
     if (!open) return;
@@ -59,17 +60,17 @@ export default function BookmarksDropdown() {
         ref={trigger}
         type="button"
         aria-expanded={open}
-        aria-controls="bookmarks-panel"
+        aria-controls={panelId}
         onClick={() => setOpen((value) => !value)}
-        className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-800"
+        className="min-h-11 rounded-lg px-2 py-2 text-sm font-medium hover:bg-slate-800 sm:px-3"
       >
         Bookmarks ▾
       </button>
 
       {open && (
         <div
-          id="bookmarks-panel"
-          className="absolute right-0 top-full z-50 mt-3 w-80 max-w-[90vw] rounded-xl border border-slate-200 bg-white p-3 text-slate-900 shadow-xl"
+          id={panelId}
+          className="fixed left-4 right-4 top-20 z-50 max-h-[calc(100svh-6rem)] overflow-y-auto rounded-xl border border-slate-200 bg-white p-3 text-slate-900 shadow-xl sm:absolute sm:left-auto sm:right-0 sm:top-full sm:mt-3 sm:w-80 sm:max-w-[calc(100vw-2rem)]"
         >
           <h2 className="px-2 py-2 font-semibold">Saved locations</h2>
 
@@ -96,14 +97,14 @@ export default function BookmarksDropdown() {
             </p>
           )}
 
-          <ul className="max-h-72 overflow-y-auto">
+          <ul className="max-h-[min(24rem,55svh)] overflow-y-auto overscroll-contain">
             {bookmarks.map((bookmark) => (
               <li key={bookmark.id} className="flex items-center gap-2">
                 <Link
                   to={`/results/${bookmark.zip}`}
-                  className="min-w-0 flex-1 rounded-lg p-2 hover:bg-slate-100"
+                  className="min-w-0 flex-1 rounded-lg p-3 hover:bg-slate-100"
                 >
-                  <span className="block font-medium">
+                  <span className="block break-words font-medium">
                     {bookmark.place.city}, {bookmark.place.state}
                   </span>
                   <span className="text-sm text-slate-500">{bookmark.zip}</span>
@@ -114,7 +115,7 @@ export default function BookmarksDropdown() {
                   disabled={removing !== null}
                   aria-label={`Remove bookmark for ${bookmark.place.city}, ${bookmark.zip}`}
                   onClick={() => void handleRemove(bookmark.id)}
-                  className="rounded-lg px-3 py-2 text-slate-500 hover:bg-red-50 hover:text-red-600 disabled:opacity-50"
+                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-slate-500 hover:bg-red-50 hover:text-red-600 disabled:opacity-50"
                 >
                   {removing === bookmark.id ? "…" : "×"}
                 </button>
