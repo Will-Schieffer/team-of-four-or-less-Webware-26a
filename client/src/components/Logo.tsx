@@ -1,7 +1,7 @@
 export default function Logo({ className = "" }: { className?: string }) {
   return (
     <span
-      className={`inline-flex items-center gap-2 font-semibold tracking-tight ${className}`}
+      className={`inline-flex items-center gap-2 font-semibold tracking-tight transition-transform duration-200 hover:scale-125 ${className}`}
     >
       <svg
         viewBox="0 0 24 24"
