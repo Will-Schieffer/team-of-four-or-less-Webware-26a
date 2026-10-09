@@ -21,4 +21,4 @@ William Hanlon - Designed login page, authentication, bookmark features, and mob
 
 Will Schieffer - Designing majority of schema, database data collection, Supabase setup and hosting
 
-6. Video Submission: LINK TO VIDEO HERE
+6. Video Submission: [LINK TO VIDEO HERE](https://drive.google.com/file/d/1_SEnjlkkPvvg8O9HmBAfMz8tD70Jydsa/view?usp=sharing)
