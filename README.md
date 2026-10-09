@@ -13,7 +13,7 @@ For this project, the top 25 most populated cities in the US (and Worcester) wer
 
 5. Contributions:
 
-Abhi Chillara -
+Abhi Chillara - Designed Results Page and added API routes for backend to serve data to results page
 
 Patrick Tirch - Designed Home Page, Navbar, Footer, Search Bar, and assisted in implementation of search feature
 
