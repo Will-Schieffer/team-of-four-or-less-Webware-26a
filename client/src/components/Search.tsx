@@ -181,7 +181,7 @@ export default function Search({ compact = false }: { compact?: boolean }) {
           required
           maxLength={100}
           placeholder={compact ? "City or ZIP code" : "City, town, or ZIP code"}
-          className={`min-w-0 flex-1 text-slate-950 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-600 ${
+          className={`min-w-0 flex-1 text-slate-950 placeholder:text-slate-500 focus-within:ring-2 focus-within:ring-teal-600 ${
             compact ? "px-3 py-2 text-sm" : "px-4 py-4"
           }`}
         />
