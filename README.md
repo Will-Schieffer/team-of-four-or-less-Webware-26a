@@ -15,7 +15,7 @@ For this project, the top 25 most populated cities in the US (and Worcester) wer
 
 Abhi Chillara -
 
-Patrick Tirch -
+Patrick Tirch - Designed Home Page, Navbar, Footer, Search Bar, and assisted in implementation of search feature
 
 William Hanlon - Designed login page, authentication, bookmark features, and mobile design
 
