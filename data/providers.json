@@ -6,7 +6,15 @@
     "name": "AES Indiana"
   },
   {
+    "name": "AT&T Internet",
+    "website": "https://www.att.com/internet/"
+  },
+  {
     "name": "Arizona Public Service Co"
+  },
+  {
+    "name": "Astound Broadband",
+    "website": "https://www.astound.com"
   },
   {
     "name": "Atmos Energy"
@@ -15,18 +23,32 @@
     "name": "Austin Energy"
   },
   {
+    "name": "Austin Resource Recovery"
+  },
+  {
     "name": "Austin Water",
     "website": "https://www.austintexas.gov/water"
+  },
+  {
+    "name": "Boston Public Works Department"
   },
   {
     "name": "Boston Water and Sewer Commission",
     "website": "https://www.bwsc.org"
   },
   {
+    "name": "Breezeline",
+    "website": "https://www.breezeline.com"
+  },
+  {
     "name": "CPS Energy (City of San Antonio)"
   },
   {
     "name": "CenterPoint Energy"
+  },
+  {
+    "name": "CenturyLink (Quantum Fiber)",
+    "website": "https://www.centurylink.com"
   },
   {
     "name": "Charlotte Water",
@@ -36,12 +58,39 @@
     "name": "Citizens Energy Group"
   },
   {
+    "name": "City of Charlotte Solid Waste Services"
+  },
+  {
+    "name": "City of Chicago Department of Streets and Sanitation"
+  },
+  {
     "name": "City of Chicago Department of Water Management",
     "website": "https://www.chicago.gov/city/en/depts/water.html"
   },
   {
+    "name": "City of Columbus Division of Refuse Collection"
+  },
+  {
+    "name": "City of El Paso Environmental Services Department"
+  },
+  {
+    "name": "City of Houston Solid Waste Management Department"
+  },
+  {
+    "name": "City of Jacksonville Solid Waste Division"
+  },
+  {
+    "name": "City of Phoenix Public Works Department"
+  },
+  {
     "name": "City of Phoenix Water Services Department",
     "website": "https://www.phoenix.gov/waterservices"
+  },
+  {
+    "name": "City of San Antonio Solid Waste Management Department"
+  },
+  {
+    "name": "City of San Diego Environmental Services Department"
   },
   {
     "name": "City of San Diego Public Utilities Department",
@@ -65,12 +114,25 @@
     "name": "Con Edison (Consolidated Edison Co-NY Inc)"
   },
   {
+    "name": "Cox",
+    "website": "https://www.cox.com"
+  },
+  {
+    "name": "DC Department of Public Works"
+  },
+  {
     "name": "DC Water",
     "website": "https://www.dcwater.com"
   },
   {
+    "name": "Dallas Sanitation Services"
+  },
+  {
     "name": "Dallas Water Utilities",
     "website": "https://dallascityhall.com/departments/waterutilities"
+  },
+  {
+    "name": "Denver Solid Waste Management"
   },
   {
     "name": "Denver Water",
@@ -97,6 +159,13 @@
     "website": "https://www.fortworthtexas.gov/departments/water"
   },
   {
+    "name": "Google Fiber",
+    "website": "https://fiber.google.com"
+  },
+  {
+    "name": "GreenTeam of San Jose"
+  },
+  {
     "name": "Houston Water",
     "website": "https://houstonpublicworks.org/houston-water"
   },
@@ -104,11 +173,18 @@
     "name": "JEA"
   },
   {
+    "name": "LA Sanitation (LASAN)",
+    "website": "https://www.lacitysan.org"
+  },
+  {
     "name": "Las Vegas Valley Water District",
     "website": "https://www.lvvwd.com"
   },
   {
     "name": "Los Angeles Department of Water & Power"
+  },
+  {
+    "name": "Meridian Waste"
   },
   {
     "name": "Metro Water Services",
@@ -122,7 +198,14 @@
     "website": "https://www.nyc.gov/dep"
   },
   {
+    "name": "NYC Department of Sanitation",
+    "website": "https://www.nyc.gov/sanitation"
+  },
+  {
     "name": "Nashville Electric Service"
+  },
+  {
+    "name": "Nashville Metro Public Works"
   },
   {
     "name": "National Grid (Boston Gas Company)"
@@ -137,6 +220,9 @@
     "name": "National Grid (Massachusetts Electric Co)"
   },
   {
+    "name": "Oklahoma City Solid Waste Management"
+  },
+  {
     "name": "Oklahoma City Utilities Department",
     "website": "https://www.okc.gov/departments/utilities"
   },
@@ -148,6 +234,10 @@
   },
   {
     "name": "Oncor Electric Delivery Company LLC"
+  },
+  {
+    "name": "Optimum",
+    "website": "https://www.optimum.com"
   },
   {
     "name": "PECO Energy Co"
@@ -171,6 +261,9 @@
     "name": "Philadelphia Gas Works"
   },
   {
+    "name": "Philadelphia Streets Department Sanitation Division"
+  },
+  {
     "name": "Philadelphia Water Department",
     "website": "https://water.phila.gov"
   },
@@ -179,6 +272,14 @@
   },
   {
     "name": "Puget Sound Energy"
+  },
+  {
+    "name": "Recology",
+    "website": "https://www.recology.com"
+  },
+  {
+    "name": "Republic Services",
+    "website": "https://www.republicservices.com"
   },
   {
     "name": "Salt River Project"
@@ -209,15 +310,46 @@
     "name": "SoCalGas (Southern California Gas Co)"
   },
   {
+    "name": "Sonic",
+    "website": "https://www.sonic.com"
+  },
+  {
     "name": "Southwest Gas"
+  },
+  {
+    "name": "Spectrum",
+    "website": "https://www.spectrum.com"
+  },
+  {
+    "name": "T-Mobile Fiber",
+    "website": "https://www.t-mobile.com"
   },
   {
     "name": "Texas Gas Service"
   },
   {
+    "name": "Verizon Fios",
+    "website": "https://www.verizon.com/home/fios/"
+  },
+  {
     "name": "Washington Gas (Washington Gas Light Co)"
   },
   {
+    "name": "Waste Management",
+    "website": "https://www.wm.com"
+  },
+  {
+    "name": "Waste Pro USA",
+    "website": "https://www.wastepro.com"
+  },
+  {
+    "name": "Worcester Department of Public Works & Parks"
+  },
+  {
     "name": "Xcel Energy (Public Service Co of Colorado)"
+  },
+  {
+    "name": "Xfinity",
+    "website": "https://www.xfinity.com"
   }
 ]
