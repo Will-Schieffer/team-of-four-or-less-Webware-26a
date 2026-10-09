@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import SaveLocationButton from "../components/SaveLocationButton";
 
 type Offering = {
   id: number;
   category: string;
+  zip?: string;
+  price?: number;
   provider: { name: string };
 };
 
@@ -34,7 +37,7 @@ export default function ResultsPage() {
     const fetchUtilities = async () => {
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/utilities/${zip}`,
+          `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/utilities/${userInput}`,
           { signal: controller.signal },
         );
 
@@ -69,7 +72,7 @@ export default function ResultsPage() {
     }
 
     return () => controller.abort();
-  }, [zip]);
+  }, [userInput]);
 
   return (
     <div className="min-h-svh bg-slate-50 text-slate-900">
@@ -85,7 +88,7 @@ export default function ResultsPage() {
 
         <h1 className="text-3xl font-semibold mb-6">
           Providers for{" "}
-          {place ? `${place.city}, ${place.state} · ${place.zip}` : zip}
+          {place ? `${place.city}, ${place.state} · ${place.zip}` : userInputUpper}
         </h1>
 
         {!loading && !error && place && (
@@ -115,16 +118,29 @@ export default function ResultsPage() {
               <h2 className="text-xl font-medium text-slate-800">
                 {utility.provider.name}
               </h2>
-              <p className="text-slate-500 mt-1">
-                Type:{" "}
-                <span className="capitalize">
-                  {utility.category.toLowerCase()}
-                </span>
-              </p>
+              <div className="flex items-center gap-4 mt-1">
+                <p className="text-slate-500 mt-1">
+                  Type:{" "}
+                  <span className="capitalize">
+                    {utility.category.toLowerCase()}
+                  </span>
+                </p>
+                {utility.zip !== undefined && (
+                  <p className="text-slate-500 mt-1">
+                    ZIP: {utility.zip}
+                  </p>
+                )}
+                {utility.price !== undefined && utility.price !== null && (
+                  <p className="text-slate-500 mt-1">
+                    Price: ${utility.price}
+                  </p>
+                )}
+              </div>
             </div>
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

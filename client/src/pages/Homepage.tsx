@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
   return (
@@ -26,13 +27,29 @@ export default function HomePage() {
           <Search />
         </section>
       </div>
-      <section className="flex flex-col items-center justify-center mt-16 px-6 text-center">
-        <h1 className="text-5xl font-bold pb-2">TESTING</h1>
-        <h2 className="text-2xl font-medium mt-2 pb-4">
-          THIS AREA IS TO TEST THE BACKGROUND AND SCROLL
-        </h2>
-        <p>Example text found here</p>
-      </section>
+      <div className="flex items-center justify-between w-full bg-slate-950 pt-16 pb-16">
+        <section className="flex flex-col mt-16 ml-20 text-left">
+          <h1 className="text-5xl font-bold pb-2">
+            Ranked #1 in Utility Comparison
+          </h1>
+          <h2 className="text-2xl font-medium mt-2 pb-4">
+            Voted the best utility comparison tool by users across the country!
+          </h2>
+        </section>
+        <img className="w-[40vw] h-auto rounded-xl mr-20" src="../../public/number-one.jpg" />
+      </div>
+      <div className="flex items-center justify-between w-full bg-slate-950 pt-16 pb-16">
+        <img className="w-[40vw] h-auto rounded-xl ml-20" src="../../public/telephone-line.jpg" />
+        <section className="flex flex-col mt-16 mr-20 text-right">
+          <h1 className="text-5xl font-bold pb-2">
+            Save Your Favorite Providers
+          </h1>
+          <h2 className="text-2xl font-medium mt-2 pb-4">
+          Utilicheck allows you to save your favorite providers for easy access.
+          </h2>
+        </section>
+      </div>
+      <Footer />
     </main>
   );
 }

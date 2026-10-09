@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[8vh] bg-slate-950 px-6 py-4 text-white z-40">
       <div className="flex items-center">
         <Link to="/" className="text-lg pr-2">
-          <Logo />
+          <Logo className="transition-transform duration-200 hover:scale-125" />
         </Link>
 
         {!isHomepage && (

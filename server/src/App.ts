@@ -33,7 +33,10 @@ const apiLimiter = rateLimit({
 app.use("/api/", apiLimiter);
 
 // Middleware
-app.use(clerkMiddleware());
+app.use(clerkMiddleware({
+  publishableKey: process.env.VITE_CLERK_PUBLISHABLE_KEY,
+  secretKey: process.env.CLERK_SECRET_KEY
+}));
 
 // routes
 app.use("/api/utilities", utilityRoutes);
