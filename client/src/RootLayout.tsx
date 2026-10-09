@@ -30,7 +30,7 @@ export default function RootLayout() {
     >
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/results/:zip" element={<ResultsPage />} />
+        <Route path="/results/:userInput" element={<ResultsPage />} />
         {/* Must be a splat route so Clerk's nested steps resolve */}
         <Route path="/sign-in/*" element={<LoginPage />} />
       </Routes>

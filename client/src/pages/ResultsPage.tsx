@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router";
+import Navbar from "../components/Navbar";
 
 export default function ResultsPage() {
-  const { zip } = useParams();
+  const { userInput } = useParams();
+  const userInputUpper = userInput?.trim().toUpperCase();
 
   const [utilities, setUtilities] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -12,10 +14,10 @@ export default function ResultsPage() {
     const fetchUtilities = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/utilities/${zip}`,
+          `http://localhost:5000/api/utilities/${userInput}`,
         );
         if (!response.ok) {
-          throw new Error("Failed to find utilities for this ZIP code.");
+          throw new Error("Failed to find utilities for this address/ZIP Code.");
         }
         const data = await response.json();
         setUtilities(data);
@@ -26,14 +28,15 @@ export default function ResultsPage() {
       }
     };
 
-    if (zip) {
+    if (userInput) {
       fetchUtilities();
     }
-  }, [zip]);
+  }, [userInput]);
 
   return (
     <div className="min-h-svh bg-slate-50 p-6 text-slate-900">
-      <div className="mx-auto max-w-3xl">
+      <Navbar />
+      <div className="mx-auto max-w-3xl mt-[8vh]">
         <Link
           to="/"
           className="text-teal-600 hover:underline mb-6 inline-block"
@@ -41,7 +44,7 @@ export default function ResultsPage() {
           &larr; Back to Search
         </Link>
 
-        <h1 className="text-3xl font-semibold mb-6">Providers for {zip}</h1>
+        <h1 className="text-3xl font-semibold mb-6">Providers for {userInputUpper}</h1>
 
         {loading && <p className="text-slate-500">Loading your options...</p>}
         {error && (
