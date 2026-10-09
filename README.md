@@ -17,7 +17,8 @@ For this project, the top 25 most populated cities in the US (and Worcester) wer
 
 4. For the most part, our development process as a team went smoothly. For the backend, manually collecting trash and internet data was a chore, but it wasn't particularly difficult. On the frontend, mobile responsiveness posed a challenge, but it was overcome quickly as well.
 
-5. 
+5. Contributions:
+
 Abhi Chillara -
 
 Patrick Tirch -
@@ -25,6 +26,5 @@ Patrick Tirch -
 William Hanlon - Designed login page, authentication, bookmark features, and mobile design
 
 Will Schieffer - Designing majority of schema, database data collection, Supabase setup and hosting
-
 
 6. LINK TO VIDEO HERE
