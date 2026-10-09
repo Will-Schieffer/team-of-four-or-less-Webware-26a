@@ -9,44 +9,53 @@ export default function Navbar() {
   const isHomepage = location.pathname === "/";
 
   return (
-    <nav className="flex items-center justify-between fixed top-0 left-0 w-full h-[8vh] bg-slate-950 px-6 py-4 text-white z-40">
-      <div className="flex items-center">
-        <Link to="/" className="text-lg pr-2">
-          <Logo className="transition-transform duration-200 hover:scale-125" />
+    <nav
+      aria-label="Main navigation"
+      className="fixed inset-x-0 top-0 z-40 border-b border-slate-800 bg-slate-950 text-white"
+    >
+      <div className="flex h-20 w-full items-center justify-between gap-4 px-4 sm:px-6">
+        <Link to="/" className="shrink-0 text-lg">
+          <Logo />
         </Link>
 
         {!isHomepage && (
-          <div className="ml-4 inline-block">
+          <div className="ml-4 hidden w-full max-w-md min-w-0 md:block">
             <SearchNav />
           </div>
         )}
-      </div>
-      <Show when="signed-out">
-        <SignInButton>
-          <button
-            type="button"
-            className=" group rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-teal-500"
-          >
-            <span className="inline-block font-bold transition-transform duration-200 group-hover:scale-125">
-              Sign In
-            </span>
-          </button>
-        </SignInButton>
-      </Show>
-      <Show when="signed-in">
-        <div className="flex items-center gap-3">
-          <BookmarksDropdown />
-          <UserButton
-            appearance={{
-              elements: {
-                userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
-                userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
-                userButtonAvatarImg: "w-12 h-12",
-              },
-            }}
-          />
+
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+          <Show when="signed-out">
+            <SignInButton>
+              <button
+                type="button"
+                className="min-h-11 rounded-lg bg-teal-600 px-3 py-2 text-sm font-semibold hover:bg-teal-500 sm:px-4"
+              >
+                Sign in
+              </button>
+            </SignInButton>
+          </Show>
+
+          <Show when="signed-in">
+            <BookmarksDropdown />
+            <UserButton
+              appearance={{
+                elements: {
+                  userButtonTrigger: "w-12 h-12 min-w-12 min-h-12",
+                  userButtonAvatarBox: "w-12 h-12 min-w-12 min-h-12",
+                  userButtonAvatarImg: "w-12 h-12",
+                },
+              }}
+            />
+          </Show>
         </div>
-      </Show>
+      </div>
+
+      {!isHomepage && (
+        <div className="px-4 pb-3 md:hidden">
+          <SearchNav />
+        </div>
+      )}
     </nav>
   );
 }
