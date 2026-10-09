@@ -124,7 +124,8 @@ router.get("/saved-searches", async (req, res) => {
 
     res.json(savedSearches);
   } catch (error) {
-    res.status(500).json({ error: "Internal server error" });
+    console.error("GET /saved-searches failed:", error);
+    res.status(500).json({ error: "Unable to load bookmarks" });
   }
 });
 
