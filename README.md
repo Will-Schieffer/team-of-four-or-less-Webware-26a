@@ -19,8 +19,12 @@ For this project, the top 25 most populated cities in the US (and Worcester) wer
 
 5. 
 Abhi Chillara -
+
 Patrick Tirch -
+
 William Hanlon -
+
 Will Schieffer - Designing majority of schema, database data collection, Supabase setup and hosting
+
 
 6. LINK TO VIDEO HERE
